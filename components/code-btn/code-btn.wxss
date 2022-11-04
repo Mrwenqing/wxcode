@@ -1,0 +1,22 @@
+.code-btn {
+  width: 260rpx;
+  height: 260rpx;
+  border-radius: 50%;
+  background-color: #fcaf18;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.code-btn .image {
+  width: 180rpx;
+  height: 100rpx;
+}
+
+.code-btn .text {
+  width: 164rpx;
+  text-align: center;
+  color: #fff;
+  font-size: 30rpx;
+}

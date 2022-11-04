@@ -1,0 +1,10 @@
+<view class="container">
+  <view class="advert">
+    <i-swiper advertList="{{advertList}}"></i-swiper>
+  </view>
+  <view class="main">
+    <view>
+      <code-btn bindhandleCode="handleCode"></code-btn>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,152 @@
+/* pages/cart/cart.wxss */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container .list {
+  flex: 1;
+  padding-bottom: 170rpx;
+}
+
+.container .list .list-item {
+  padding: 20rpx;
+  border-bottom: 1rpx solid #eee;
+  position: relative;
+}
+
+.container .list-item .title {
+  color: #333;
+}
+
+.container .list-item .specifications {
+  color: #777;
+  font-size: 26rpx;
+  padding: 10rpx 0;
+}
+
+.container .list-item .price {
+  color: #febe1b;
+  padding-bottom: 20rpx;
+}
+
+.container .list-item .computed {
+  display: flex;
+  position: absolute;
+  right: 10rpx;
+  top: 130rpx;
+}
+
+.container .computed .button {
+  width: 60rpx;
+  height: 60rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+.container .computed .decrement {
+  border: 1rpx solid #febe1b;
+  background-color: #fff;
+  color: #febe1b;
+}
+
+.container .computed .increment {
+
+  background-color: #febe1b;
+  color: #fff;
+}
+
+.container .computed input {
+  width: 160rpx;
+  box-sizing: border-box;
+  height: 60rpx;
+  border: 1rpx solid #febe1b;
+  border-radius: 50rpx;
+  margin: 0 10rpx;
+  text-align: center;
+  line-height: 50rpx;
+}
+
+.container .footer {
+  display: flex;
+  height: 170rpx;
+  flex-direction: column;
+  background-color: #fff;
+  box-shadow: 0 2px 2px 2px #ccc;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.container .footer .total {
+  height: 70rpx;
+  line-height: 70rpx;
+  color: #666;
+  padding: 0 20rpx;
+  font-size: 28rpx;
+}
+
+.container .total text {
+  margin-left: 10rpx;
+  color: #f60;
+}
+
+.container .group {
+  display: flex;
+  flex: 1;
+}
+
+.container .group view {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .group view.add {
+  background-color: #febe1b;
+  color: #fff;
+}
+
+.container .group view.settlement {
+  background-color: #f60;
+  color: #fff;
+}
+
+.container view.settlement text {
+  margin-left: 10rpx;
+}
+
+.empty-cart {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.empty-cart .tips {
+  margin-top: 250rpx;
+  color: #777;
+}
+
+.empty-cart .icon {
+  width: 250rpx;
+  height: 250rpx;
+  margin: 50rpx 0;
+}
+
+.empty-cart .button {
+  background-color: #febe1b;
+  width: 320rpx;
+  height: 80rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30rpx;
+  border-radius: 15rpx;
+}

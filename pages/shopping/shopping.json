@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "i-swiper": "/components/i-swiper/i-swiper",
+    "code-btn": "/components/code-btn/code-btn"
+  }
+}

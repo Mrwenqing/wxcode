@@ -1,0 +1,113 @@
+.order {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #f1f1f1;
+}
+
+.order .content {
+  flex: 1;
+  padding-bottom: 100rpx;
+
+}
+
+.order .content-list {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20rpx;
+  background-color: #fff;
+}
+
+.order .list-item {
+  border-bottom: 1rpx solid #eee;
+  padding: 40rpx;
+}
+
+.order .list-item .title {
+  display: flex;
+  justify-content: space-between;
+  color: #555;
+}
+
+.order .list-item .title text:last-child {
+  color: #f60;
+}
+
+.order .list-item .num {
+  margin-top: 30rpx;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.order .content .order-button {
+  height: 100rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #444;
+}
+
+.order .order-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20rpx;
+  height: 120rpx;
+  background-color: #fff;
+  margin-top: 20rpx;
+  color: #555;
+}
+
+.order .order-item .balance text {
+  color: #f60;
+}
+
+.order .order-item .price {
+  color: #f60;
+}
+
+.order .content .order-tips {
+  display: flex;
+  justify-content: center;
+  margin-top: 150rpx;
+  color: #555;
+}
+
+.order .content .order-tips text {
+  margin-left: 10rpx;
+}
+
+.order .footer {
+  display: flex;
+  height: 100rpx;
+  box-shadow: 1px 1px 1px 1px #777;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 9999;
+}
+
+.order .footer .current-price {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  padding-left: 20rpx;
+  box-sizing: border-box;
+  color: #777;
+}
+
+.order .current-price text {
+  color: #f60;
+  margin-left: 20rpx;
+}
+
+.order .footer .confirm-pay {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FEBE1B;
+  color: #fff;
+}

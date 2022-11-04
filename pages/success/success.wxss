@@ -1,0 +1,115 @@
+page {
+  height: auto;
+}
+
+.success {
+  height: 100%;
+  background-color: #f1f1f1;
+}
+
+.success .pay-success {
+  height: 400rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.success .pay-success .tips {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70rpx;
+}
+
+.success .pay-success .tips image {
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.success .pay-success .tips text {
+  color: #444;
+  margin-top: 10rpx;
+}
+
+.success .pay-success .back {
+  background-color: #FEBE1B;
+  color: #fff;
+  padding: 15rpx 40rpx;
+  border-radius: 10rpx;
+  margin-top: 50rpx;
+}
+
+
+.success .list {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.success .list .list-title {
+  height: 90rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1rpx solid #eee;
+  color: #444;
+  background-color: #fff;
+}
+
+.success .list .list-title text {
+  color: #f60;
+  padding: 0 20rpx;
+}
+
+.success .list .list-item {
+  padding: 20rpx;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  margin-bottom: 20rpx;
+}
+
+.success .list .list-item .cover {
+  width: 100%;
+  height: 400rpx;
+}
+
+.success .list .list-item .cover image {
+  width: 100%;
+  height: 100%;
+}
+
+.success .list .list-item .title {
+  color: #444;
+  font-size: 36rpx;
+  margin-top: 10rpx;
+}
+
+.success .list .list-item .price {
+  color: #f60;
+  font-size: 40rpx;
+  margin-top: 10rpx;
+}
+
+.success .list .list-item .other {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10rpx;
+  align-items: center;
+
+}
+
+.success .list .list-item .other .sales {
+  color: #555;
+}
+
+.success .list .list-item .other .now {
+  background-color: #f60;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15rpx 40rpx;
+  border-radius: 10rpx;
+  color: #fff;
+}
